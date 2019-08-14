@@ -17,11 +17,11 @@ Enter Second No. :<br>
 # 3 ViewX
 Output of this program
 __________________________
-
+Enter number of rows: 3<br>
 <p>
 *****<br/>
-.***<br/>
-..*<br/>
-.***<br/>
+_***<br/>
+__*<br/>
+_***<br/>
 *****
 <p/>
