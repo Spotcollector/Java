@@ -1,19 +1,33 @@
-public class ViewX{
-    public static void main(String[] args) {
-        ViewHelp();
+#include<stdio.h>
+int main()
+{
+    int rows, i, j, space;
+    printf("Enter number of rows: ");
+    scanf("%d",&rows);
+    for(i=rows; i>=1; --i)
+    {
+        for(space=0; space < rows-i; ++space)
+            printf("  ");
+        for(j=i; j <= 2*i-1; ++j)
+            printf("* ");
+        for(j=0; j < i-1; ++j)
+            printf("* ");
+        printf("\n");
     }
-    public static void ViewHelp(){
-
-        String arrs[]= new String[5];
-        arrs[0]="*****";
-        arrs[1]=" ***";
-        arrs[2]="  *";
-        arrs[3]=" ***";
-        arrs[4]="*****";
-        for(int i=0;i<5;i++) {
-            System.out.println(arrs[i]);
-    }
-
-    } 
     
+    int k;
+    for(i=1; i<=rows; ++i, k=0)
+    {
+        for(space=1; space<=rows-i; ++space)
+        {
+            printf("  ");
+        }
+        while(k != 2*i-1)
+        {
+            printf("* ");
+            ++k;
+        }
+        printf("\n");
+    }
+    return 0;
 }
