@@ -1,3 +1,4 @@
+This repository contain 3 Java Programs
 # 1 DescendingOdd
 Output of this program
 __________________________
@@ -8,26 +9,20 @@ __________________________
 Output of this program
 __________________________
 
-Input the 5 numbers :<br>
+Enter First No. :<br>
 297<br>
-Greter Then 100<br>
+Enter Second No. :<br>
 99<br>
-Smaller Then 100<br>
-22<br>
-Smaller Then 100<br>
-105<br>
-Grater Then 100<br>
-29<br>
-Smaller Then 100<br>
+297 is greater than 99<br>
 
 # 3 ViewX
 Output of this program
 __________________________
-
+Enter number of rows: 3<br>
 <p>
-|*****|<br/>
-|||***||<br/>
-||||*|||||<br/>
-|||***||<br/>
-|*****|
+*****<br/>
+_***<br/>
+__*<br/>
+_***<br/>
+*****
 <p/>
